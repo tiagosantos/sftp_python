@@ -8,3 +8,7 @@ Edite a script para se encaixar às suas necessidades.
 Para executar, rode:
 
 python usuario senha nome_do_arquivo.txt
+
+
+
+Obs: Script testada apenas em Linux e Mac OS X
