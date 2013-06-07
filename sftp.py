@@ -30,7 +30,7 @@ caminho_remoto = './diretorio_remoto/'
 
 #cria extensão de arquivo temporatio (.TMP)
 filepath = caminho_remoto + arquivo + '.TMP'
-#filepathtmp = caminho_remoto + arquivo + tmp
+
 localpath = caminho_local + arquivo
 
 #transfere o arquivo
