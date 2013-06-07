@@ -13,17 +13,19 @@ arquivo = sys.argv[3]
 
 paramiko.util.log_to_file('./sftp.log')
 
+#acrescente o endereço do servidor abaixo
 host = 'www.dominio.com'
 port = 22
 transport = paramiko.Transport((host, port))
 
-#password = 'senha'
-#username = 'usuario'
+
 transport.connect(username = username, password = password)
 
 sftp = paramiko.SFTPClient.from_transport(transport)
 
+#acrescente o diretório onde estão os arquivos que serão transferidos
 caminho_local = './diretorio_local/'
+#acrescente o diretório onde serão transferidos os arquivos
 caminho_remoto = './diretorio_remoto/'
 
 
