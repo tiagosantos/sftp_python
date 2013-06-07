@@ -3,6 +3,11 @@ sftp com python e paramiko
 
 Sript para transferência de arquivos via sftp com Python utilizando a biblioteca Paramiko.
 
+
+Python: http://www.python.org/
+
+Paramiko: https://github.com/paramiko/paramiko
+
 Edite a script para se encaixar às suas necessidades.
 
 Para executar, rode:
