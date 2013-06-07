@@ -1,4 +1,8 @@
-sftp_python
+sftp com python e paramiko
 ===========
 
-sftp com python e lib paramiko
+Sript para transferência de arquivos via sftp com Python utilizando a biblioteca Paramiko.
+
+Para executar, rode:
+
+python usuario senha nome_do_arquivo.txt
