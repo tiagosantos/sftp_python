@@ -14,7 +14,7 @@ arquivo = sys.argv[3]
 paramiko.util.log_to_file('./sftp.log')
 
 #acrescente o endereço do servidor abaixo
-host = 'ftp.s4.exacttarget.com'
+host = 'dominio.com'
 port = 22
 
 
@@ -29,13 +29,13 @@ except:
     	sys.exit()
 
 #acrescente o diretório onde estão os arquivos que serão transferidos
-caminho_alphabase = './arquivos/'
+caminho_local = './arquivos/'
 #acrescente o diretório onde serão transferidos os arquivos
-caminho_exact = './Import/'
+caminho_host = './Diretorio/'
 #cria extensão de arquivo temporatio (.TMP)
-filepath = caminho_exact + arquivo + '.TMP'
-localpath = caminho_alphabase + arquivo 
-new_filepath = caminho_exact + arquivo
+filepath = caminho_host + arquivo + '.TMP'
+localpath = caminho_local + arquivo 
+new_filepath = caminho_host + arquivo
 
 #transfere o arquivo
 try:
