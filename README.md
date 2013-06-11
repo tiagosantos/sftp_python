@@ -1,4 +1,4 @@
-sftp com python e paramiko
+sftp com Python e Biblioteca Paramiko
 ===========
 
 Sript para transferência de arquivos via sftp com Python utilizando a biblioteca Paramiko.
