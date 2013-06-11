@@ -35,5 +35,5 @@ executar:
 python setup.py build --compiler=mingw32 bdist_wininst
 python  setup.py build
 python setup.py install
-  
+
 5 - Pronto! ;)
