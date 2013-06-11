@@ -38,6 +38,8 @@ localpath = caminho_local + arquivo
 new_filepath = caminho_host + arquivo
 
 #transfere o arquivo
+#se precisar fazer download, use get ao invés de put
+#exemplo: sftp.get(filepath, localpath)
 try:
 	sftp.put(localpath, filepath)
 	print 'Arquivo', arquivo,'tranferido!'
