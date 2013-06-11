@@ -16,7 +16,7 @@ python usuario senha nome_do_arquivo.txt
 
 
 Python + Paramiko no Windows
-===========
+
 
 1 - Instalar Python 2.6 no Windows (tive problemas para instalar a biblioteca paramiko em versões mais recentes do Python)
 http://www.python.org/download/
