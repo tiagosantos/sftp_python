@@ -19,7 +19,7 @@ Python + Paramiko no Windows
 ===========
 
 1 - Instalar Python 2.6 no Windows (tive problemas para instalar a biblioteca paramiko em versões mais recentes do Python)
-  http://www.python.org/download/
+  	http://www.python.org/download/
 	Adicionar a Path C:\Python26
   
 2 - Instalar módulo PyCrypto (Versão para Windows 32bits e python2.6)
