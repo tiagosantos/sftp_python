@@ -32,8 +32,8 @@ http://sourceforge.net/projects/mingw/files/Automated%20MinGW%20Installer/mingw-
 https://github.com/paramiko/paramiko
 Descomprimir e navegar até o diretório via linha de comando
 executar:
-# python setup.py build --compiler=mingw32 bdist_wininst
-# python  setup.py build
-# python setup.py install
+python setup.py build --compiler=mingw32 bdist_wininst
+python  setup.py build
+python setup.py install
   
 5 - Pronto! ;)
