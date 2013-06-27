@@ -12,7 +12,7 @@ Edite a script para se encaixar às suas necessidades.
 
 Para executar, rode:
 
-python usuario senha nome_do_arquivo.txt
+python usuario + senha + host + diretório_local + diretório_remoto + nome_do_arquivo.txt
 
 
 Python + Paramiko no Windows
