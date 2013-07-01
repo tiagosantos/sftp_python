@@ -1,6 +1,8 @@
 sftp com Python e Biblioteca Paramiko
 ===========
 
+License: GPL
+
 Sript para transferência de arquivos via sftp com Python utilizando a biblioteca Paramiko.
 
 
